@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fantasy Foursquare</title>
+	<link rel="stylesheet" href="/static/css/styles.css" type="text/css" charset="utf-8">	
+</head>
+<body>
+	<div id="wrapper">
+		<h1>Fantasy Foursquare</h1>
+		<div id="choices">
+			<h2>Draft</h2>
+			<form class="place" id="building">
+				Building<br>
+				<select>
+					<option value="empireStateBuilding">Empire State Building</option>
+					<option value="chrystlerBuilding">Crystler Building</option>
+					<option value="courantInstitute">Courant Institute</option>
+				</select>
+				<input type="submit" value="Submit">
+			</form>
+			<form class="place" id="cafe">
+				Cafe <br>
+				<input type="text" name="cafe">
+				<input type="submit" value="Submit">
+			</form>
+			<form class="place" id="park">
+				Park <br>
+				<input type="text" name="park">
+				<input type="submit" value="Submit">
+			</form>
+			<form class="place" id="restaurant">
+				Restaurant <br>
+				<input type="text" name="restaurant">
+				<input type="submit" value="Submit">
+
+			</form>
+			<form class="place" id="store">
+				Store <br>
+				<input type="text" name="store">
+				<input type="submit" value="Submit">
+			</form>
+		</div>
+		<div id="queue">
+			<h3>Up Next</h3>
+			<div id="names">
+				A. Lott<br>
+				M. Morreale<br>
+				S. Socha<br>
+				D. Padawer<br>
+				N. Lee<br>
+			</div>
+		</div>
+		</div>
+</body>
+</html>
