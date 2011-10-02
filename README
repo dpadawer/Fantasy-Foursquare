@@ -10,3 +10,8 @@ lat varchar(10)   //Latitude of location as a string
 lon varchar(10)   //Longitude of location as a string
 owner varchar(20) //Name of owner of location
 type varchar(20)  //Type of location
+
+412d2800f964a520df0c1fe3", "3fd66200f964a520def11ee3", "40b68100f964a5207d001fe3", "40abf500f964a52035f31ee3", "408c5100f964a520c6f21ee3" };
+            //string[] ids = new string[] { "3fd66200f964a52035e41ee3", "4161e400f964a520721d1fe3", "435c2400f964a52012291fe3", "470f3ff0f964a5208e4b1fe3", "4ba3cc6cf964a520a06038e3" };
+            //string[] ids = new string[] { "44dc96e4f964a520b0361fe3", "4e56634545dd92275e4c30d9", "4af281eaf964a520d2e721e3", "4abe4678f964a5205d8c20e3", "4aa512c5f964a5205e4720e3" };
+            string[] ids = new string[] { "4ac3bac3f964a520969c20e3", "4ab23309f964a520c26a20e3", "456ebbbff964a520163e1fe3", "4667ce8df964a52089471fe3", "4b8aa3e1f964a520e77632e3" };
