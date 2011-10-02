@@ -9,3 +9,4 @@ currentHits int   //Hits on foursquare as of last update
 lat varchar(10)   //Latitude of location as a string
 lon varchar(10)   //Longitude of location as a string
 owner varchar(20) //Name of owner of location
+type varchar(20)  //Type of location
