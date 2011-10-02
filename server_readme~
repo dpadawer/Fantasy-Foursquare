@@ -1,6 +1,6 @@
 Commands:
 	ssh adl316@access.cims.nyu.edu
-	    (when it prompts for password, it's abcd1234)
+	    (when it prompts for password, it's FriendshipIsMagic)
 	cd hackathon/Fantasy-Foursquare
 	
 Now you're in the git repo, do whatever
