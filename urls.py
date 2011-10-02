@@ -6,9 +6,9 @@ from django.conf.urls.defaults import *
 # admin.autodiscover()
 
 urlpatterns = patterns('',
-	(r'^login/$', 'users.views.login'),
-	(r'^users/(?P<user_id>\d+)/draft/$', 'users.views.draft'),
-	(r'^game/$', 'users.views.game'),
+	(r'^login/$', 'fantasyfoursquare.views.login'),
+	(r'^users/(?P<user_id>\d+)/draft/$', 'fantasyfoursquare.views.draft'),
+	(r'^game/$', 'fantasyfoursquare.views.game'),
     # Examples:
     # url(r'^$', 'FantasyFoursquare.views.home', name='home'),
     # url(r'^FantasyFoursquare/', include('FantasyFoursquare.foo.urls')),

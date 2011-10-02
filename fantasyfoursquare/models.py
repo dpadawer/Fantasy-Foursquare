@@ -8,6 +8,7 @@ class User(models.Model):
 		return self.username
 
 class Place(models.Model):
+	foursquare_id = models.CharField(max_length=200)
 	name = models.CharField(max_length=200)
 	type = models.CharField(max_length=200)
 	latitude = models.CharField(max_length=200)

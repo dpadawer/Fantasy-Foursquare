@@ -1,5 +1,5 @@
 from django.template import Context, loader
-from users.models import User
+from fantasyfoursquare.models import User, Place
 from django.http import HttpResponse
 
 def login(request):
@@ -8,8 +8,11 @@ def login(request):
 	return HttpResponse(t.render(c))
 
 def draft(request, user_id):
+	places = Place.objects.all().order_by("type")
 	t = loader.get_template("users/draft.html")
-	c = Context({ })
+	c = Context({
+		'places' : places
+	})
 	return HttpResponse(t.render(c))
 
 def game(request):

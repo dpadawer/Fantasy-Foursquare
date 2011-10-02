@@ -65,14 +65,19 @@ h3 {
 <body>
 	<div id="wrapper">
 		<h1>Fantasy Foursquare</h1>
+		{% if names %}
+			<h1>Names</h1>
+		{% endif %}
 		<div id="choices">
 			<h2>Draft</h2>
 			<form class="place" id="building">
 				Building<br>
 				<select>
-					<option value="empireStateBuilding">Empire State Building</option>
-					<option value="chrystlerBuilding">Crystler Building</option>
-					<option value="courantInstitute">Courant Institute</option>
+					{% for place in places %}
+						{% if place.type == "Park" %}
+							<option value={{ place.name }}>{{ place.name }}</option>
+						{% endif %}
+					{% endfor %}
 				</select>
 				<input type="submit" value="Submit">
 			</form>
