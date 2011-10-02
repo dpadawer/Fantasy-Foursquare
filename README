@@ -1,1 +1,11 @@
 This is a README.
+
+Sql Set up:
+
+name varchar(30)  //Name of location
+id varchar(30)    //Foursquare ID of location
+originalHits int  //Hits on foursquare when game started
+currentHits int   //Hits on foursquare as of last update
+lat varchar(10)   //Latitude of location as a string
+lon varchar(10)   //Longitude of location as a string
+owner varchar(20) //Name of owner of location
